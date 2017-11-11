@@ -1,11 +1,11 @@
 #Color4{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(52, 173, 36);
 }
 
 .Block{
     height: 200px;
     width: 200px;
-    background-color: rgb(31, 31, 31);
+    background-color: #1d96db;
     border: 0px;
 }
 
@@ -14,5 +14,5 @@
 }
 
 .Down :hover{
-    background-color: rgb(49, 49, 49);
+    background-color: rgba(33, 167, 0, 0.582);
 }

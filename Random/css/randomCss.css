@@ -1,0 +1,28 @@
+body{
+    background-color: #3c9affc5;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: white;
+}
+
+button{
+    background-color:#23da2ca9;
+    color: #ffffff;
+    border-color: #23da29d3;
+    padding: 10px;
+}
+
+#b1{
+    position: fixed;
+    bottom: 40px;
+    left: 50px;
+}
+
+#b2{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+}
