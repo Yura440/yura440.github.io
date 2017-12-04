@@ -1,19 +1,51 @@
-#Color4{
-    background-color: rgb(52, 173, 36);
+body{
+    margin: 0;
+}
+#Menu{
+    width: 100%;
+    height: 50px;
+    background: url("img/bgMenu.jpg");
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 
-.Block{
-    height: 200px;
+#Menu2{
     width: 200px;
-    background-color: #1d96db;
-    border: 0px;
+    height: 500px;
+    position: fixed;
+    left: 0;
+    top:50px;
+    background: url("img/bgMenu.jpg");
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 
-#h1F{
-    color: rgba(250, 250, 250, 0.93);
+#Menu3{
+    width: 70px;
+    height: 500px;
+    position: fixed;
+    left: 0;
+    top:50px;
+    background: url("img/bgMenu.jpg");
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
 }
 
-.Down :hover{
-    background-color: rgba(33, 167, 0, 0.582);
+#MenuBut{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    margin: 7px;
 }
 
+.button2{
+    background-color: #ffffff0e;
+    border: 0;
+    color: rgba(255, 255, 255, 0.753);
+    width: 100%;
+    height: 50px;
+}
+
+.button1{
+    background-color: #ffffff00;
+    border: 0;
+    color: rgba(255, 255, 255, 0);
+    width: 0;
+    height: 0px;
+}

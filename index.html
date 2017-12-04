@@ -5,7 +5,8 @@
         <title>Проекты</title>
         <link rel="stylesheet" href="yura.css">
     </head>
-    <body id="Color4">
+    <body background="img/bg.jpg">
+        <!--
             <a href="Future\main.html" class="Down"><center><button class="Block">
             <h1 id ="h1F">Future</h1>
             <img src="img\Future logo 1.png" alt="future img" height="100" width="150"/>
@@ -18,5 +19,29 @@
             <img src="img\RandomLogo.png" alt="random img" height="100" width="70"/>
 
         </button></center></a>
+         <button onclick="location.href = '/example/'">Кнопка-ссылка</button>
+        <a href="#" class="c">Комментировать</a>-->
+
+        <div id="Menu">
+            <button id="MenuBut" onclick="MenuBut()">
+                <img src="img\test.png" />
+            </button>
+        </div>
+
+        <div id="Menu2">
+                <button class="button2" onclick="location.href = 'https://yura440.github.io/Future/main.html'">Future</button>
+                <button class="button2" onclick="location.href = 'https://yura440.github.io/Random/randomMain.html'">Random</button>
+        </div>
+
+        <script>
+            var i = true;
+            function MenuBut(){
+                if (i)
+                    document.getElementById("Menu2").id = "Menu3";
+                    else
+                    document.getElementById("Menu3").id = "Menu2";
+                i = !i;
+            }
+        </script>
     </body>
 </html>
