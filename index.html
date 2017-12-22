@@ -32,20 +32,33 @@
             <div id="menuZone2"></div>
         </div>-->
         <div id="Menu2">
-            <div class="buttonMenu2"  onclick="location.href = 'https://yura440.github.io/Future/main.html'">Future</div>
-            <div class="buttonMenu2"  onclick="location.href = 'https://yura440.github.io/Random/randomMain.html'">Random</div>
-            <div class="buttonMenu2">Game</div>
+            <div class="buttonMenu2"  onclick="hrefGo(1)">Future</div>
+            <div class="buttonMenu2"  onclick="hrefGo(2)">Random</div>
+            <div class="buttonMenu2"  onclick="hrefGo(3)">Game</div>
         </div>
-
+        <br />
+        <br />
+        <br />
+        
+        
         <script>
-            var a = false;
+            var menu2 = true;
             function clickMenu() {
-                if (a)
+                if (!menu2)
                     document.getElementById("Menu2").style.left = -300 + "px";
                     else
                     document.getElementById("Menu2").style.left = 0;
-                    a = !a;
+                    menu2 = !menu2;
                 }
+
+            function hrefGo(idHref){
+                switch (idHref)
+                {
+                    case 1: location.href = 'https://goo.gl/3Ri2Tg'; break;
+                    case 2: location.href = 'https://goo.gl/saHJZg'; break;
+                    default: error(); break;
+                }
+            }
         </script>
     </body>
 </html>

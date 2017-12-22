@@ -9,6 +9,8 @@ body{
     background: url("img/bgMenu.jpg");
     width: 100%;
     height: 50px;
+    position: fixed;
+    top: 0;
 }
 
 
@@ -42,12 +44,9 @@ body{
     width: 200px;
     height: 100%;
     padding: 0px;
+    top: 50px;
     left: -300px;
     transition: 0.3S left;
-}
-
-#Menu2 :active{
-    left: 10px;
 }
 
 .buttonMenu2{
