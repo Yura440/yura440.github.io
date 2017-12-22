@@ -1,0 +1,65 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    margin: 0;
+}
+
+#menuZone {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.83);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+#buttonMenu {
+    position: fixed;
+    top: 9px;
+    left: 9px;
+}
+
+/*#foneMenu2
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background-color: #00000096;
+    opacity: 1;
+    transition: 0.3S;
+}
+
+#foneMenu2:hover + #menuZone2{
+    left: 200px;
+}*/
+
+#Menu2 {
+    background-color: #00000094;
+    color: rgba(255, 255, 255, 0.856);
+    font-size: 100%;
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    padding: 0px;
+    top: 50px;
+    left: -300px;
+    transition: 0.3S left;
+}
+
+.buttonMenu2 {
+    padding: 10px;
+}
+
+    .buttonMenu2:hover {
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.281);
+    }
+
+    .buttonMenu2:active {
+        padding: 10px;
+        background-color: rgba(255, 0, 0, 0.384);
+    }
