@@ -1,0 +1,78 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    margin: 0;
+}
+
+div{
+    width: 25%;
+    height: 25%;
+    margin: 20px;
+}
+
+.div1{
+    position: fixed;
+    left: 5%;
+    top: 5%;
+}
+
+.div2{
+    position: fixed;
+    left: 35%;
+    top: 5%;
+}
+
+.div3{
+    position: fixed;
+    right: 5%;
+    top: 5%;
+}
+
+.div4{
+    position: fixed;
+    left: 5%;
+    top: 35%;
+}
+
+.div5{
+    position: fixed;
+    left: 35%;
+    top: 35%;
+}
+
+.div6{
+    position: fixed;
+    right: 5%;
+    top: 35%;
+}
+
+.div7{
+    position: fixed;
+    left: 5%;
+    top: 65%;
+}
+
+.div8{
+    position: fixed;
+    left: 35%;
+    top: 65%;
+}
+
+.div9{
+    position: fixed;
+    right: 5%;
+    top: 65%;
+}
+
+.none{
+    background-color: blue;
+}
+
+.clickX{
+    background-color: red;
+}
+
+.clickO{
+    background-color: green;
+}
