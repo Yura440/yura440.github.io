@@ -1,0 +1,48 @@
+body{
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+}
+
+.div{
+    background-color: rgba(255, 0, 0, 0);
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.div1{
+    position: fixed;
+    top: 50px;
+    left: 20px;
+}
+
+.div2{
+    position: fixed;
+    top: 50px;
+    left: 120px;
+}
+
+.div3{
+    position: fixed;
+    top: 50px;
+    left: 220px;
+}
+
+.div4{
+    position: fixed;
+    top: 50px;
+    left: 320px;
+}
+
+.div5{
+    position: fixed;
+    top: 50px;
+    left: 420px;
+}
+
+img{
+    width: 120px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
