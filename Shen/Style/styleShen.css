@@ -40,6 +40,35 @@ body{
     top: 50px;
     left: 420px;
 }
+.div6{
+    position: fixed;
+    top: 50px;
+    left: 520px;
+}
+
+.div7{
+    position: fixed;
+    top: 50px;
+    left: 620px;
+}
+
+.div8{
+    position: fixed;
+    top: 50px;
+    left: 720px;
+}
+
+.div9{
+    position: fixed;
+    top: 50px;
+    left: 820px;
+}
+
+.div10{
+    position: fixed;
+    top: 50px;
+    left: 920px;
+}
 
 img{
     width: 120px;

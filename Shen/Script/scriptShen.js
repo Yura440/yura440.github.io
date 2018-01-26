@@ -56,6 +56,12 @@ function cls(){
     document.getElementById("img" + "3").src = img + 'null.png';
     document.getElementById("img" + "4").src = img + 'null.png';
     document.getElementById("img" + "5").src = img + 'null.png';
+
+    document.getElementById("img" + "6").src = img + 'null.png';
+    document.getElementById("img" + "7").src = img + 'null.png';
+    document.getElementById("img" + "8").src = img + 'null.png';
+    document.getElementById("img" + "9").src = img + 'null.png';
+    document.getElementById("img" + "10").src = img + 'null.png';
 }
 
 function write(N, id){
