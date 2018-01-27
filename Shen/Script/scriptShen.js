@@ -39,7 +39,7 @@ function con(){
                     case 1:
                     case 2:
                     case 3:
-                    case 5: write(10, 3); write(num, 1);break;
+                    case 5: write(10, 2); write(num, 1);break;
 
                     case 9: write(10, 4); write(num, 1);break;
                     
