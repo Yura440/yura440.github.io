@@ -34,18 +34,19 @@ function con(){
                     case 4:
                     case 6:
                     case 7:
-                    case 8: write(10, 2); write(num, 1);break;
+                    case 8: write(10, 3); write(num, 1);break;
 
                     case 1:
                     case 2:
                     case 3:
-                    case 5: write(10, 2); write(num, 1);break;
+                    case 5: num == 1 || 2 || 3 || 5? write(10, 2) : write(10, 3); write(num, 1);break;
 
                     case 9: write(10, 4); write(num, 1);break;
                     
                 }
                 }
         }
+    console.log(num);
     console.log(num % 10);
     //document.getElementById("img" + "4").src = img + '0.png';
 }
